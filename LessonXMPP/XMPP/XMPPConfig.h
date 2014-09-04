@@ -10,11 +10,13 @@
 #define XMPPSample_XMPPConfig_h
 
 //openfire服务器IP地址
-#define  kHostName      @"182.92.10.164"
+//#define  kHostName      @"182.92.10.164"
+#define  kHostName      @"127.0.0.1"
 //openfire服务器端口 默认5222
 #define  kHostPort      5222
 //openfire域名
-#define kDomin @"lanou"
+//#define kDomin @"lanou"
+#define kDomin @"ann"
 //resource
 #define kResource @"iOS"
 #endif

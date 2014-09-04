@@ -90,6 +90,10 @@
         //刷新数据
         [self.tableView reloadData];
     }
+    if (self.messages.count > 0) {
+        
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:self.messages.count - 1 inSection:0] atScrollPosition:0 animated:YES];
+    }
 }
 
 #pragma mark - XMPPStreamDelegate
